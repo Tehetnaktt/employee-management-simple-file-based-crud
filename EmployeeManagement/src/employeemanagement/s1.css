@@ -1,0 +1,95 @@
+/* Global Styles */
+.root {
+-fx-background-color: linear-gradient(to bottom, #f0f0f0, #e2e2e2);
+-fx-font-family: "Roboto", sans-serif;
+-fx-font-size: 12px;
+-fx-text-fill: #424242;
+}
+
+/* Menu Bar Styles */
+.menu-bar {
+    -fx-background-color: purple;
+    -fx-padding: 12px 24px; 
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 0);
+    -fx-pref-height: 64px;
+}
+
+.menu-bar > .button {
+    -fx-background-color: transparent;
+-fx-text-fill: white;
+-fx-font-weight: 300;
+-fx-cursor: hand;
+-fx-font-size: 14px;
+-fx-padding: 8px 16px;
+-fx-border-radius: 4px;
+-fx-transition: all 0.3s ease;
+}
+
+.menu-bar > .button:hover {
+-fx-background-color: rgba(255, 255, 255, 0.2);
+-fx-scale-x: 1.05;
+-fx-scale-y: 1.05;
+}
+
+/* Pane Styles */
+/* Pane Styles */
+.pane {
+    -fx-padding: 20px;
+   
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 0);
+ 
+    -fx-background-color: #f0f0f0;
+    -fx-padding: 20px; 
+    -fx-spacing: 10px;
+    -fx-font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    -fx-font-size: 14px;
+
+/*    -fx-margin: 20px auto;*/
+}
+.row{
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-text-fill: #333;
+    -fx-alignment: CENTER_LEFT;
+fx-spacing: 14px;
+    -fx-display: flex;
+    -fx-flex-direction: row;
+    -fx-align-items: canter;
+}
+.data{
+    -fx-pref-width: 300px;
+    -fx-background-color: white;
+    -fx-spacing: 70px;
+    -fx-border-color: #ccc; 
+    -fx-border-width: 1px; 
+    -fx-border-radius: 4px;
+    -fx-padding: 8px 12px;
+ fx-flex-grow: 1;
+ fx-padding:14px;
+}
+rbt{
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+/* Button Styles */
+.btn {
+    -fx-background-color: #2196F3; 
+    -fx-text-fill: white;
+    -fx-font-weight: bold; 
+    -fx-border-radius: 4px; 
+    
+    -fx-text-fill: white;
+    -fx-padding: 10;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0, 0, 0);
+}
+
+.btn:hover {
+    -fx-background-color: #3e8e41;
+}
+
+
+
